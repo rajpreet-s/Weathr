@@ -1,6 +1,6 @@
 import Search from "./search"
 import HelloUser from "./hellouser";
-import './style/mainScreen.css'
+import './style/mainscreen.css'
 import Weather from "./weather";
 import AirQuality from "./airquality";
 
