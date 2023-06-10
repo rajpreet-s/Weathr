@@ -1,0 +1,29 @@
+
+input{
+    padding: 0.5em 1.2em 0.5em 1.2em;
+    border-radius: 0.5em;   
+    border-style: none;
+    background: url(../../assets/search-icon.svg) no-repeat 7px 7px;
+    background-size: 20px 20px;
+    background-position: 95% 50%;
+    font-size: medium;
+    width: 100%;
+    height: 100%;
+    background-color: #EDF0F0;
+    overflow: hidden;
+}
+input:focus{
+    outline: none;
+    border-bottom: #e54d16 solid 2px;
+    background:none;
+    background-color: #EDF0F0;
+}
+.bell-icon{
+    height: 30px;
+    width: 30px;
+    margin-left: 1rem;
+    cursor: pointer;
+    border:solid 0.1px #343a3e82;
+    border-radius: 50%;
+    padding: 4px;
+}

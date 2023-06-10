@@ -1,0 +1,92 @@
+.air-container{
+    margin-top: 7%;
+    padding:28px 20px;
+    width:50%;
+    height:auto;
+    background: url('../../../assets/weather/air-quality.png') no-repeat;
+    background-size:cover;
+    border-radius: 5%;
+    overflow: hidden;
+    
+}
+.air-container{
+    background-color: rgb(141, 201, 227);
+    z-index: 2;
+}
+.air-icon{
+    background: white;
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    margin-top: 5px;
+    padding:5px;
+}
+.air-name{
+    display: flex;
+    padding-bottom:30px;
+}
+.air-bold{
+    font-weight:500;
+    font-size:medium;
+    padding-bottom: 5px;
+}
+.air-light{
+    font-weight: 400;
+    font-size: small;
+}
+.air-name-padding{
+    padding-left: 1rem;
+    color: white;
+}
+.wind-container{
+    display: flex;
+    flex-direction: row;
+    
+}
+.wind-name{
+    font-weight:bolder;
+    font-size: 4em;
+    position: relative;
+    color:rgb(0, 0, 0);
+}
+
+.wind-dir-name{
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    padding:8px 16px;
+    display: flex;
+    height:min-content;
+    width: auto;
+    justify-content: center;
+    align-items: center;
+}
+.aqi{
+    font-weight: 500;
+    font-size: 1.2em;
+    background-color: #BED64C;
+    margin: 1.5em 1.5em 3em 0;
+    padding:0 15px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+.label-container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 1rem;
+    font-weight: bold;
+}
+.slide-container{
+    background-color: white;
+    padding: 1.5em;
+    margin-top: 1.5em;
+    border-radius: 20px;
+}
+.slide-container input[type="range"]::-webkit-slider-runnable-track {
+  background: linear-gradient(90deg, #f00, #f00), repeating-linear-gradient(90deg, #ffa500, #ffa500 10px, transparent 10px, transparent 20px);
+}

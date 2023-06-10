@@ -1,0 +1,25 @@
+.container{
+    display:flex;
+}
+img{
+    height:70px;
+    width:70px;
+    transform:scaleX(-1);
+}
+.greet{
+    font-size:1.5rem;
+    font-weight:100;
+    margin-left:1rem;
+    margin-top:0.5rem;
+    color:black;
+}
+.name{
+    font-size:1.5rem;
+    font-weight: bold;
+    margin-left:1rem;
+    color:black;
+}
+.header-text{
+    display:flex;
+    flex-direction: column;
+}
