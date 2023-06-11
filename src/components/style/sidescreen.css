@@ -86,7 +86,12 @@
     align-items: center;
 }
 .forecast-date-container{
+    display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-basis: 0;
+    flex-grow: 1;
 }
 .forecast-icon{
     width: 40px;
